@@ -1,0 +1,237 @@
+/* common css start */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 1340px;
+    margin: 0 auto;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .sidebyside {
+    display: flex;
+  }
+  
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .title h6 {
+    font-size: 20px;
+    color: #289bde;
+  }
+  
+  .title h2 {
+    font-size: 40px;
+    color: #071b27;
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+  
+  .title p {
+    font-size: 20px;
+    color: #666666;
+    max-width: 613px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  
+  /* common css end */
+
+
+  /* navber start */
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 13px;
+    z-index: 9999;
+    /* background-color: #071b27; */
+    
+  }
+  
+  nav .sidebyside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    column-gap: 30px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  nav ul a {
+    color: #fff;
+    transition: all linear 0.4s;
+  }
+  
+  nav ul a:hover {
+    color: #289bde;
+  }
+  
+  nav .lang {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+  }
+  
+  nav .lang:hover {
+    border-color: #289bde;
+    background-color: #289bde;
+  }
+  
+  nav .get {
+    background-color: #fff;
+    color: #289bde;
+    font-size: 16px;
+    padding: 8px 45px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 18px;
+    transition: all linear 0.4s;
+  }
+  
+  nav .get:hover {
+    background-color: #289bde;
+    color: #fff;
+  }
+  
+  /* navber end */
+
+  #banner {
+    background-color: #071b27;
+    color: #fff;
+    text-align: center;
+    padding-top: 277px;
+    padding-bottom: 350px;
+    position: relative;
+  }
+  
+  #banner .like_loves {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+  }
+  #banner .like_love {
+    position: relative;
+    transform: translate(-50%, -50%);
+  }
+  
+  #banner p {
+    font-size: 30px;
+    position: relative;
+  }
+  
+  #banner h1 {
+    font-size: 70px;
+    max-width: 1117px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 40px;
+  }
+  
+  #banner .sns {
+    background-color: #289bde;
+    padding: 19px 29px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #289bde;
+  }
+  
+  #banner .member {
+    padding: 19px 29px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    transition: all linear 0.4s;
+  }
+  
+  #banner a {
+    transition: all linear 0.4s;
+    margin: 0 12px;
+  }
+  
+  #banner .member:hover {
+    background-color: #289bde;
+    border-color: #289bde;
+  }
+  
+  /* Banner end */
