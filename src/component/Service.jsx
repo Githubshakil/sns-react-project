@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <section id="service">
+    <section className="service">
         <div className="container">
             <div className="title">
                 <h6 className="poppins-bold service_h6">Services</h6>

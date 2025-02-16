@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about">
+    <section className="about">
     <div className="container">
         <div className="title">
             <h6 className="poppins-medium title_h6">Who We Are</h6>

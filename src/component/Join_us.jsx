@@ -2,7 +2,7 @@ import React from 'react'
 
 const Join_us = () => {
   return (
-<section id="join_us">
+<section className="join_us">
         <div className="container">
             <div className="title">
                 <h6 className="poppins-medium">Join US</h6>

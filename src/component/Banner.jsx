@@ -4,7 +4,7 @@ import Button from './Button'
 const Banner = () => {
   return (
     
-    <section id="banner">
+    <section className="banner">
         <div className="container">
             <div className="like_loves">
 
