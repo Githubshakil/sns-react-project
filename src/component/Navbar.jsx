@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Navbar = () => {
   return (
@@ -23,12 +24,8 @@ const Navbar = () => {
 
                 </div>
                 <div className="btn">
-                    <a href="#" className="lang">
-                        Japanese
-                    </a>
-                    <a href="#" className="get poppins-medium">
-                        Get Start
-                    </a>
+                    <Button href="#" style="lang" content="Japanese"/>
+                    <Button type='button' style="get" content="Get start"/>
                 </div>
             </div>
         </div>
