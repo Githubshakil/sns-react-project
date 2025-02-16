@@ -7,6 +7,7 @@ import Mission_vision from './component/Mission_vision'
 import Testimonial from './component/Testimonial'
 import Join_us from './component/Join_us'
 import Footer from './component/Footer'
+import Contect from './component/Contect'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Mission_vision/>
       <Testimonial/>
       <Join_us/>
+      <Contect/>
       <Footer/>
     </>
   )
