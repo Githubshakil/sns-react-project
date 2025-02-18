@@ -24,7 +24,18 @@ const Navbar = () => {
 
                 </div>
                 <div className="btn">
-                    <Button href="#" style="lang" content="Japanese"/>
+                    {/* <Button href="#" style="lang" content="Japanese"/> */}
+                    <div className="lang">
+                                <i className="fa-solid fa-globe"></i>
+                                <select name="name" className="nameSelect">
+                                    <option value="Select Item">Language</option>
+                                    <option value="bangla">Bengali</option>
+                                    <option value="english">English</option>
+                                    <option value="japanese">Japanese</option>
+                                    <option value="spanish">Spanish</option>
+                                    <option value="turkish">Turkish</option>
+                                </select>
+                            </div>
                     <Button type='button' style="get" content="Get start"/>
                 </div>
             </div>

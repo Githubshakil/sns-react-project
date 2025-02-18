@@ -153,6 +153,14 @@ nav {
     border-color: #289bde;
     background-color: #289bde;
   }
+  .nameSelect{
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
   
   nav .get {
     background-color: #fff;
