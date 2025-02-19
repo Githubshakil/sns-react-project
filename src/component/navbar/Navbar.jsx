@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../button/Button'
+import './Navbar.css'
 
 const Navbar = () => {
   return (

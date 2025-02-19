@@ -1,4 +1,5 @@
 import React from 'react'
+import './Join_us.css'
 
 const Join_us = () => {
   return (
