@@ -1,5 +1,4 @@
-import React from 'react'
-import './Button.css'
+import React from 'react' // Import the React library
 
 const Button = ({content,style,func,type="button",href}) => {
   return (
