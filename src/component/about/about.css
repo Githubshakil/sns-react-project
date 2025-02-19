@@ -1,0 +1,30 @@
+/* About us start */
+.about .content {
+    margin-top: 60px;
+  }
+  
+  .about .sidebyside {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 126px;
+  }
+  
+  .about h3 {
+    font-size: 42px;
+    color: #07003b;
+  }
+  
+  .about p {
+    font-size: 20px;
+    max-width: 717px;
+    line-height: 41px;
+  }
+  
+  .about p span {
+    font-size: 20px;
+    color: #289bde;
+    margin-top: 10px;
+  }
+  
+  /* About us end */
+  

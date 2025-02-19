@@ -1,0 +1,73 @@
+
+.banner {
+    background-color: #071b27;
+    color: #fff;
+    text-align: center;
+    padding-top: 277px;
+    padding-bottom: 350px;
+    position: relative;
+  }
+  
+  .banner .like_loves {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+  }
+  .banner .like_love {
+    position: relative;
+    transform: translate(-50%, -50%);
+  }
+  
+  .banner p {
+    font-size: 30px;
+    position: relative;
+  }
+  
+  .banner h1 {
+    font-size: 70px;
+    max-width: 1117px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 40px;
+  }
+  
+  .banner .sns {
+    background-color: transparent;
+    padding: 19px 29px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .banner .member {
+    background-color: transparent;
+    padding: 19px 29px;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    transition: all linear 0.4s;
+    cursor: pointer;
+  }
+  
+  .banner a {
+    transition: all linear 0.4s;
+    margin: 0 12px;
+  }
+  
+  .banner .member:hover {
+    background-color: #289bde;
+    border-color: #289bde;
+  }
+  
+  .banner .sns:hover {
+    background-color: #289bde;
+    border-color: #289bde;
+  }
+  
+  /* Banner end */

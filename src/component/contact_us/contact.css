@@ -1,0 +1,88 @@
+/* contect start */
+.contect {
+    margin-top: 140px;
+    margin-bottom: 60px;
+  }
+  .contect .sidebyside {
+    justify-content: space-between;
+    max-width: 1066px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .contect .left h3 {
+    max-width: 380px;
+    font-size: 42px;
+    margin-bottom: 22px;
+  }
+  .contect .left p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 445px;
+  }
+  .contect ul {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 29px;
+    margin-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .contect ul li img {
+    width: 25px;
+    height: 20px;
+    margin-right: 9px;
+  }
+  
+  .contect .formcontainer {
+    max-width: 498px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+    padding: 36px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contect .right h3 {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .contect .right label {
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: block;
+    margin-top: 17px;
+  }
+  .contect .right input {
+    width: 426px;
+    height: 50px;
+    border: 1px solid #dde1e0;
+    border-radius: 5px;
+  }
+  .contect .right button {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #289bde;
+    background-color: #ffffff;
+    border: 1px solid #289bde;
+    border-radius: 10px;
+    width: 426px;
+    padding: 18px 0;
+    margin-top: 45px;
+    transition: 0.4s;
+  }
+  .contect .right button:hover {
+    background-color: #289bde;
+    color: #fff;
+  }
+  
+  /* contect end */
