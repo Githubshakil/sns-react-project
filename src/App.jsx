@@ -3,18 +3,19 @@ import './App.css'
 import Navbar from './component/navbar/Navbar'
 import Banner from './component/banner/Banner'
 import About from './component/about/About'
-import Service from './component/service/Service'
-import Mission_vision from './component/mission_vision/Mission_vision'
+import Service from './component/services/Service'
+import Mission_vision from './component/mission_vission/Mission_vision'
 import Testimonial from './component/testimonial/Testimonial'
 import Join_us from './component/join_us/Join_us'
+import Contect from './component/contact_us/Contact'
 import Footer from './component/footer/Footer'
-import Contect from './component/contact_us/Contect'
 
 function App() {
 
 
   return (
     <>
+    {/* <h1>test</h1> */}
       <Navbar />
       <Banner/>
       <About/>

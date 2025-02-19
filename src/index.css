@@ -106,23 +106,7 @@
 
 
   
-  /* outer banner image start */
-.test {
-  position: relative;
-  top: -50%;
-  transform: translateY(-300px);
-}
-.outer_img {
-  position: relative;
-  /* top: -50%;
-    transform: translateY(-300px); */
-}
-
-.outer_img img {
-  width: 100%;
-}
-
-/* outer banner image end */
+  
 
 
 
