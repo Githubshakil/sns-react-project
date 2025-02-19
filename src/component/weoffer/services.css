@@ -1,0 +1,79 @@
+/* Service start */
+.service {
+    background-color: #071b27;
+    padding: 156px 0;
+  }
+  
+  .service .title {
+    text-align: left;
+    margin-bottom: 60px;
+  }
+  
+  .service h6 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .service h2 {
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  .service .sidebyside {
+    justify-content: space-between;
+  }
+  
+  .service .leftbox {
+    max-width: 643.5px;
+    border: 1px solid #fff;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .service .leftbox h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 44px;
+    margin-bottom: 24px;
+  }
+  
+  .service .leftbox h3 i {
+    margin-left: 9px;
+  }
+  
+  .service .leftbox ul {
+    display: flex;
+    gap: 17.13px;
+    margin-bottom: 24px;
+  }
+  
+  .service .leftbox ul:last-child {
+    margin: 0;
+  }
+  
+  .service .leftbox ul li i {
+    height: 24px;
+    border: 1px solid #289bde;
+    color: #289bde;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 20.55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+  }
+  
+  .service ul li p {
+    font-size: 20px;
+    max-width: 525.82px;
+    color: #fff;
+  }
+  
+  .service ul li p span {
+    font-size: 20px;
+    color: #289bde;
+    margin-top: 10px;
+  }
+  
+  /* Service end */
