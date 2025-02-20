@@ -17,10 +17,6 @@ const Banner = () => {
             <h1 className="poppins-bold">
                 Connecting the World. Building a Shared Future.
             </h1>
-            {/* <!-- <a href="#" className="sns poppins-regular">SNS & Community</a>
-            <a href="#" className="sns poppins-regular">Membership Club</a> -->
-            <a href="#" className="member poppins-regular">SNS & Community</a>
-            <a href="#" className="member membership poppins-regular">Membership Club</a> */}
 
                 <Button href="#" style="sns , sns poppins-regular" content="SNS & Community"/>
                 <Button type="#" style="member" content="Membership Club"/>

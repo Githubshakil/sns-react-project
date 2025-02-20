@@ -11,11 +11,11 @@
   .banner .like_loves {
     position: absolute;
     left: 50%;
-    top: 42%;
+    top:42%;
     transform: translate(-50%, -50%);
   }
   .banner .like_love {
-    position: relative;
+    position: absolute;
     transform: translate(-50%, -50%);
   }
   
@@ -35,18 +35,21 @@
   
   .banner .sns {
     background-color: transparent;
+    font-size: 20px;
     padding: 19px 29px;
     color: #fff;
     display: inline-block;
     border-radius: 8px;
     border: 1px solid #ffffff;
     margin-right: 20px;
+    transition: all linear 0.4s;
     cursor: pointer;
   }
   
   .banner .member {
     background-color: transparent;
-    padding: 19px 29px;
+    font-size: 20px;
+    padding: 22px 29px;
     color: #ffffff;
     display: inline-block;
     border-radius: 8px;
@@ -74,15 +77,17 @@
   
   /* outer banner image start */
 .test {
-  border: 1px solid red;
+  
   position: relative;
-  /* top: -50%; */
-  /* transform: translateY(-300px); */
+  top: 0%;
+  left: 0%;
+  transform: translateY(-50%);
 }
 .outer_img {
-  position: relative;
-  /* top: -50%; */
-  /* transform: translateY(-300px); */
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  transform: translateY(10%);
 }
 
 .outer_img img {
