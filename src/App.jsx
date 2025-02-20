@@ -7,7 +7,7 @@ import Service from './component/services/Service'
 import Mission_vision from './component/mission_vision/Mission_vision'
 import Testimonial from './component/testimonial/Testimonial'
 import Join_us from './component/join_us/Join_us'
-import Contect from './component/contact_us/Contact'
+import Contact from './component/contact_us/Contact'
 import Footer from './component/footer/Footer'
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Mission_vision/>
       <Testimonial/>
       <Join_us/>
-      <Contect/>
+      <Contact/>
       <Footer/>
     </>
   )
